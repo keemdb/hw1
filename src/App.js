@@ -21,21 +21,21 @@ class App extends Component {
     const { userid, userpw } = this.state;
     return (
       <div className="homework">
-        <h1>{this.props.title}</h1>
+        <h1>Sign In</h1>
         <form onSubmit={this.handlePrevent}>
           <input
             name="userid"
             placeholder="ID"
             value={userid}
             onChange={this.handleChange}
-          />
+          /><br/>
           <input
             name="userpw"
             placeholder="Password"
             type="password"
             value={userpw}
             onChange={this.handleChange}
-          />
+          /><br/>
           <button 
             type="submit"
             disabled={userpw.length < 6}
