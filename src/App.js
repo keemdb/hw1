@@ -15,7 +15,10 @@ class App extends Component {
 
   handlePrevent = e => {
     e.preventDefault();
-  }
+  };
+
+  isSafe = userpw => {
+  };
 
   render() {
     const { userid, userpw } = this.state;
