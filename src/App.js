@@ -17,11 +17,10 @@ class App extends Component {
     e.preventDefault();
   };
 
-  isSafe = userpw => {
-  };
 
   render() {
     const { userid, userpw } = this.state;
+
     return (
       <div className="homework">
         <h1>Sign In</h1>
